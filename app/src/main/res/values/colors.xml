@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#78b93a</color>
+    <color name="colorPrimaryDark">#5c9327</color>
+    b<color name="colorAccent">#FF4081</color>
+    <color name="colorBackground">#d4ddc3</color>
+    <color name="colorSiparisButton">#78b93a</color>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.yayiktereyagi.www.yayiktereyagi.app.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:background="@color/colorBackground"
+    >
+
+
+    <android.support.design.widget.FloatingActionButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/fab"
+    android:src="@drawable/ic_add_black_24dp"
+
+    app:backgroundTint="@color/colorSiparisButton"
+    android:layout_marginRight="13dp"
+    android:layout_marginBottom="22dp"
+    android:layout_marginEnd="13dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true" />
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fabNet"
+        android:src="@drawable/logo_acikk"
+        android:scaleType="centerCrop"
+
+        app:backgroundTint="@color/colorSiparisButton"
+        android:layout_marginLeft="13dp"
+        android:layout_marginBottom="22dp"
+        android:layout_marginStart="13dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:src="@drawable/firstpage_butter"
+        android:id="@+id/ivFirstPage"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

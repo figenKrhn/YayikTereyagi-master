@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profil"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Profilim" />
+        <item
+            android:id="@+id/nav_siparislerim"
+            android:icon="@drawable/ic_siparis_black_24dp"
+            android:title="Siparişlerim" />
+        <item
+            android:id="@+id/nav_iadelerim"
+            android:icon="@drawable/ic_iade_black_24dp"
+            android:title="İadelerim" />
+        <item
+            android:id="@+id/nav_odemelerim"
+            android:icon="@drawable/ic_odeme_black_24dp"
+            android:title="Ödemelerim" />
+    </group>
+
+
+
+</menu>
